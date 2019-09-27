@@ -1,0 +1,27 @@
+
+.course-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // padding: 20px 80px;
+
+    .card-container {
+        display: flex;
+        height: 500px;
+        padding: 10px;
+        align-content: space-between;
+        align-items: center;
+    }
+
+    .card {
+        height: 350px;
+        width: 250px;
+    }
+
+    img {
+        height: 150px;
+        width: 130px;
+    }
+
+
+}
