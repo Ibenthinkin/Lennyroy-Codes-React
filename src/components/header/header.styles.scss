@@ -6,8 +6,9 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
   background: #5c194d;
+  position: fixed;
+  top: 0;
 
   a {
     text-decoration: none;
@@ -16,7 +17,7 @@
 
   .logo-container {
     height: 20px;
-    width: 75px;
+    width: 130px;
     display: flex;
   }
 

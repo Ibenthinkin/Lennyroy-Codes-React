@@ -1,5 +1,5 @@
 import React from 'react'
-import lcWhiteFull from '../../assets/LC-white-full.png'
+import lcWhiteFull from '../../assets/img/LC-white-full.png'
 
 import './header.styles.scss'
 import { Link } from 'react-router-dom'

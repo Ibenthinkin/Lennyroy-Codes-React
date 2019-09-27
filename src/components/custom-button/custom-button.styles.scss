@@ -1,0 +1,23 @@
+.custom-button {
+  color: white;
+  background-color: #1e272f;
+  font-weight: bolder;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 3px;
+  font-size: 15px;
+  line-height: 1.2em;
+  padding: 10px;
+  margin: 0px 10px 0px 0px;
+  text-decoration: none!important;
+  text-transform: uppercase;
+  transition: background .3s,color .3s;
+
+  &:hover {
+    background-color: #5c194d;
+  }
+
+
+}
