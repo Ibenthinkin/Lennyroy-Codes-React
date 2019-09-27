@@ -2,9 +2,11 @@ import React from 'react';
 
 import './homepage.styles.scss';
 
+import TitleBanner from '../../components/title-banner/title-banner.component'
+
 const HomePage = () => (
   <div className='homepage'>
-    <h1>Welcome to my Homepage</h1>
+    <TitleBanner/>
   </div>
 );
 
