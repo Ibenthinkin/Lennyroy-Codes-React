@@ -11,7 +11,7 @@ const TitleBanner = () =>(
                 <h4>Intro To Web Development</h4>
             </div>
             <div className='button-container'>
-                <CustomButton text='The Basics'/>
+                <CustomButton text='Start Now!'/>
                 <CustomButton text='Course Catalogue' />
             </div>
         </div>

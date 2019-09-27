@@ -1,13 +1,18 @@
 import React from 'react'
-import './videos-banner.styles.scss'
+import './challenges-banner.styles.scss'
 
-const VideosBanner = () => (
-    <div className='videos-banner'>
+const ChallengesBanner = () => (
+    <div className='challenges-banner'>
         <div className='content'>
+            <div className='image-container'>
+                <img src="https://raw.githubusercontent.com/lennyroyroy/basics-image/master/Basics%20Gifs/2-main.gif"
+                    alt="Screen shot of a challenge for this course. There is code in the image as a well as a view of the Glitch interface"
+                />
+            </div>
+
             <div className='text-container'>
                 <span className='title'>
-                    Each lesson has a video tutorial to help 
-                    you through your coding journey.
+                    Over 50 in-lesson challenges to test your new skills!
                 </span>
                 <div className='paragraph'>
                     <p>
@@ -24,11 +29,8 @@ const VideosBanner = () => (
                     </p>
                 </div>
             </div>
-            <div className='image-container'>
-                <img src="https://raw.githubusercontent.com/lennyroyroy/basics-image/master/Basics%20Gifs/1-1-first-steps-in-html-update.2019-09-13%2007_23_46.gif"/>
-            </div>
         </div>
     </div>
 )
 
-export default VideosBanner
+export default ChallengesBanner

@@ -4,6 +4,8 @@
   display: flex;
   justify-content: space-between;
   background: #5c194d;
+  position: fixed;
+  top: 0;
 }
 .header a {
   text-decoration: none;

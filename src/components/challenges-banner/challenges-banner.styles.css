@@ -1,23 +1,23 @@
-.videos-banner {
+.challenges-banner {
   height: 480px;
   width: 100%;
-  background-color: grey;
-  color: #fff;
+  background-color: #fff;
+  color: black;
   display: flex;
 }
-.videos-banner .content {
+.challenges-banner .content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
 }
-.videos-banner .content .text-container {
+.challenges-banner .content .text-container {
   width: 500px;
   display: flex;
   flex-wrap: wrap;
-  margin-right: 40px;
+  margin-left: 40px;
 }
-.videos-banner .content .title {
+.challenges-banner .content .title {
   display: flex;
   flex-wrap: wrap;
   font-size: 24px;
@@ -25,7 +25,7 @@
   margin-bottom: 14px;
   font-weight: bolder;
 }
-.videos-banner .content .paragraph {
+.challenges-banner .content .paragraph {
   display: flex;
   flex-wrap: wrap;
   font-size: 18px;
@@ -33,9 +33,9 @@
   line-height: 21px;
   text-align: center;
 }
-.videos-banner .content .image-container {
+.challenges-banner .content .image-container {
   width: 500px;
 }
-.videos-banner .content .image-container img {
+.challenges-banner .content .image-container img {
   width: 100%;
 }
