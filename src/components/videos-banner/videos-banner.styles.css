@@ -1,0 +1,15 @@
+.videos-banner {
+  height: 500px;
+}
+.videos-banner .content {
+  display: flex;
+}
+.videos-banner .content .text-container {
+  width: 500px;
+}
+.videos-banner .content .image-container {
+  width: 500px;
+}
+.videos-banner .content .image-container img {
+  width: 100%;
+}
