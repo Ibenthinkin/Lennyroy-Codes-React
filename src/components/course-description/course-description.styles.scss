@@ -5,12 +5,29 @@
     align-items: center;
     background-color: #fff;
 
+    .tablet-wrapper-wrapper{
+        display: flex;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        @media only screen and (max-width: 1200px) {
+            flex-direction: column;
+        }
+    }
+    .tablet-wrapper{
+        display: flex;
+        @media only screen and (max-width: 600px) {
+            flex-direction: column;
+        }
+    }
+
     .card-container {
         display: flex;
-        height: 450px;
         padding: 10px;
         align-content: space-between;
         // align-items: center;
+        @media only screen and (max-width: 600px) {
+            flex-direction: column;
+        }
     
 
         .card {
@@ -21,6 +38,9 @@
             align-items: center;
             color: #1e272f;
             margin: 20px 20px;
+            @media only screen and (max-width: 600px) {
+                width:350px;
+            }
 
             a {
                 text-decoration: none;
