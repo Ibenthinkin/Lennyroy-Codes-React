@@ -1,14 +1,18 @@
-
-
-
 .header {
-  height: 50px;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
   background: #5c194d;
   position: fixed;
   top: 0;
+  margin-left:auto;
+  margin-right: auto;
+
+  .header-wrapper{
+    display: flex;
+    justify-content: space-around;
+    @media only screen and (max-width: 600px) {
+      display: flex;
+    }
+  }
 
   a {
     text-decoration: none;
@@ -19,20 +23,30 @@
     height: 20px;
     width: 130px;
     display: flex;
+    @media only screen and (max-width: 600px) {
+      display:none;
+    }
   }
 
   .logo {
-    height: 50px;
-    width: 130px;
+    height: 44px;
     margin-left: 30px;
+    opacity: .8;
+  }
+
+  .logo:hover{
+    opacity: 1;
   }
 
   .options {
     width: 50%;
     height: 100%;
     display: flex;
-    align-items: center;
     justify-content: flex-end;
+    padding:5px;
+    @media only screen and (max-width: 600px) {
+      width:auto;
+    }
 
     .option {
       padding: 10px 15px;

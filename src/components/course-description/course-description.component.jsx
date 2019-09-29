@@ -11,37 +11,41 @@ import './course-description.styles.scss'
 const CourseDescription = () =>(
     <div className='course-description'>
         <div className='card-container'>
-            <div className='card'>
-                <div className='image-container'>
-                    <img src={usingLaptop} 
-                    alt='woman using a laptop'
-                    />
+            <div className="tablet-wrapper-wrapper">
+            <div className="tablet-wrapper">
+                    <div className='card'>
+                        <div className='image-container'>
+                            <img src={usingLaptop} 
+                            alt='woman using a laptop'
+                            />
+                        </div>
+                        <span className='card-title'>HTML Foundations</span>
+                        <div className='card-blurb'>
+                            <p>
+                                Learn all about the 
+                                <Link className='link' to="/"> building blocks </Link>
+                                of web development! We will be diving deep in HTML Tags and structure 
+                                in this lesson.
+                            </p>
+                        </div>
+                    </div>
+                    <div className='card'>
+                        <div className='image-container'>
+                        <img src={resume} />
+                        </div>
+                        <span className='card-title'>Exploring CSS</span>
+                        <div className='card-blurb'>
+                            <p>
+                                Learn all about how to add
+                                styling to your HTML Documents. 
+                                In this 
+                                    <Link className='link' to="/"> series of lessons, </Link> 
+                                we dive deep into CSS properties and values.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <span className='card-title'>HTML Foundations</span>
-                <div className='card-blurb'>
-                    <p>
-                        Learn all about the 
-                        <Link className='link' to="/"> building blocks </Link>
-                         of web development! We will be diving deep in HTML Tags and structure 
-                        in this lesson.
-                    </p>
-                </div>
-            </div>
-            <div className='card'>
-                <div className='image-container'>
-                <img src={resume} />
-                </div>
-                <span className='card-title'>Exploring CSS</span>
-                <div className='card-blurb'>
-                    <p>
-                        Learn all about how to add
-                         styling to your HTML Documents. 
-                         In this 
-                            <Link className='link' to="/"> series of lessons, </Link> 
-                         we dive deep into CSS properties and values.
-                    </p>
-                </div>
-            </div>
+            <div className="tablet-wrapper">
             <div className='card'>
                 <img src={bookmarks} />
                 <span className='card-title'>Responsive Design</span>
@@ -65,6 +69,8 @@ const CourseDescription = () =>(
                             <Link className='link' to="/">  Ready to begin?</Link>
                     </p>
                 </div>
+            </div>
+            </div>
             </div>
         </div>
         <div className='description-text'>

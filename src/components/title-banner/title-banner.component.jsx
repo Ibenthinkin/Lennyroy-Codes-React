@@ -5,17 +5,21 @@ import CustomButton from '../custom-button/custom-button.component'
 
 const TitleBanner = () =>(
     <div className='title-banner'>
-        <div className='content'>
-            <div className='project-title'>
-                <h1>The Basics</h1>
-                <h4>Intro To Web Development</h4>
+        <div className="title-wrapper">
+            <div className='content'>
+                <div className='project-title'>
+                    <h1>The Basics</h1>
+                    <h4>Intro To Web Development</h4>
+                </div>
+                <div className='button-container'>
+                    <CustomButton text='Start Now!'/>
+                    <CustomButton text='Course Catalogue' />
+                </div>
             </div>
-            <div className='button-container'>
-                <CustomButton text='Start Now!'/>
-                <CustomButton text='Course Catalogue' />
+            <div className="image-wrapper">
+                <img src={logo} alt='the logo for lennyroy codes'/>
             </div>
         </div>
-        <img src={logo} alt='the logo for lennyroy codes'/>
     </div>
 )
 
