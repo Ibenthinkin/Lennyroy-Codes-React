@@ -22,7 +22,8 @@ const LESSON_DATA = [
             {
                 id: 1,
                 template: 'default',
-                title: 'First Steps in HTML',
+                lessonTitle: 'First Steps in HTML',
+                moduleTitle: 'Intro To HTML',
                 routeName: 'firststepsinhtml',
                 subtitle: 'Learn the layout and features of this course. We will be diving into how HTML works conceptually and even seeing a few basics tags in action!',
                 bannerImageUrl: 'https://raw.githubusercontent.com/lennyroyroy/basics-image/master/Basics%20Screenshots/Screen%20Shot%202019-09-02%20at%206.35.34%20PM.png',

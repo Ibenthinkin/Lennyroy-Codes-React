@@ -2,6 +2,7 @@ import React from 'react';
 import LESSON_DATA from '../../../assets/lessons/lesson-data'
 import './default-lesson-template.styles.scss';
 import { Link } from 'react-router-dom'
+import CustomButton from '../../custom-button/custom-button.component';
 
 export default class DefaultLessonTemplate extends React.Component {
     constructor(props) {
@@ -13,12 +14,53 @@ export default class DefaultLessonTemplate extends React.Component {
 
     render() {
         
-        const  [first]  = this.state.lesson[1].lessons
+        const [{ first: 
+                subtitle, 
+                bannerImageUrl, 
+                moduleTitle,
+                slidesUrl,
+                slidesDownloadURL,
+                codePenDescription,
+                codePenUrl,
+                youtubeUrl,
+                lessonTitle, 
 
-        console.log(first.title)
+        }]  = this.state.lesson[1].lessons
+
+        console.log(this.state.lesson[1].lessons[0].lessonTitle)
         return (
             <div className='lesson'>
-                <h1>Lesson</h1>
+                <div className='lesson-title'>{lessonTitle}</div>
+                <div className='sub-title'>{subtitle}</div>
+                <div className='banner-image'>
+                    <img src={bannerImageUrl} alt='a picture from the slideshow'/>
+                </div>
+                <div className='button-container'>
+                    <a href={slidesUrl}>
+                    <CustomButton text={'Open Slides'}></CustomButton>
+                    </a>
+                    <a href={slidesDownloadURL}>
+                    <CustomButton text={'Download Slideshow PDF'}></CustomButton> 
+                    </a>
+                </div>
+                <hr></hr>
+                <div className='lesson-text-section'>
+                    <h1>{`${moduleTitle}: ${lessonTitle}`}</h1>
+                </div>
+                <hr></hr>
+                <div className='codepen'>
+                    <h2>Codepen Lesson</h2>
+                    <div className='codepen-description'>
+                        {codePenDescription}
+                    </div>
+                    <div className='codepen-container'>
+                        
+
+
+                    </div>
+                </div>
+
+
             </div>
         )
     }
