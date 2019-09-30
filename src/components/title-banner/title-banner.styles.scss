@@ -6,6 +6,10 @@
   height: 460px;
   margin: 0 auto;
 
+  a {
+    text-decoration: none;
+  }
+
   .title-wrapper{
     display: flex;
     align-items: center;

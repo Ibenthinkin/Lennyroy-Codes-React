@@ -21,7 +21,7 @@ const LESSON_DATA = [
         lessons: [
             {
                 id: 1,
-                template: '0',
+                template: 'default',
                 title: 'First Steps in HTML',
                 routeName: 'firststepsinhtml',
                 subtitle: 'Learn the layout and features of this course. We will be diving into how HTML works conceptually and even seeing a few basics tags in action!',
@@ -35,7 +35,7 @@ const LESSON_DATA = [
                 helpfulLinks: {}
             }
         ]
-    },
+    }
 
 
 
