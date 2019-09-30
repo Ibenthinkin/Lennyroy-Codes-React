@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import './title-banner.styles.scss'
 import logo from '../../assets/img/LR-white.png'
 import CustomButton from '../custom-button/custom-button.component'
@@ -12,7 +14,9 @@ const TitleBanner = () =>(
                     <h4>Intro To Web Development</h4>
                 </div>
                 <div className='button-container'>
+                    <Link to='/lesson'> 
                     <CustomButton text='Start Now!'/>
+                    </Link>
                     <CustomButton text='Course Catalogue' />
                 </div>
             </div>
