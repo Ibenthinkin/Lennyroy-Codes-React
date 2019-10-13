@@ -1,9 +1,13 @@
 import React from 'react'
 
-const Videos = () => (
-    <div>
-        <h1>Videos</h1>
-    </div>
-)
+import './videos.styles.scss'
 
+const Videos = props => {
+    console.log(props)
+    return (
+        <div className='videos'>
+            <h1>Videos</h1>
+        </div>
+    )
+}
 export default Videos;
