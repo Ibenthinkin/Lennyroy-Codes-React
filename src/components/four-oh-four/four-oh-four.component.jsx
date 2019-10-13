@@ -1,8 +1,10 @@
 import React from 'react'
 
+import './four-oh-four.styles.scss'
+
 const FourOhFour = () => (
-    <div>
-        <h1>I beg your pardon but I am sure that I've never seen that route before in all my life!</h1>
+    <div className='four-oh-four'>
+        <h1>ummm I don't know that route bruh</h1>
     </div>
 )
 

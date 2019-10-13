@@ -1,15 +1,18 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom';
 
-import Header from './components/header/header.component'
 import HomePage from './pages/homepage/homepage.component'
-import DefaultLessonTemplate from './components/lesson-templates/default-lesson-template/default-lesson-template.component';
 import Slides from './pages/slides/slides.component'
 import Videos from './pages/videos/videos.component'
 import Challenges from './pages/blog/blog.component'
+import Blog from './pages/blog/blog.component'
+import CourseIntroduction from './pages/course-introduction/course-introduction.component.jsx'
+
+import Header from './components/header/header.component'
 import Lessons from './components/lessons/lessons.component'
 import FourOhFour from './components/four-oh-four/four-oh-four.component'
-import Blog from './pages/blog/blog.component'
+import DefaultLessonTemplate from './components/lesson-templates/default-lesson-template/default-lesson-template.component';
+
 
 // import MakeRouteWithSubRoutes from './routing/makeRouteWithSubRoutes'
 
@@ -26,7 +29,10 @@ const App = () => {
           <Route exact path='/challenges' component={Challenges} />
           <Route exact path='/blog' component={Blog} />
           <Route exact path='/lessons' component={Lessons} />
-          <Route path="/lessons/:lessonId" component={DefaultLessonTemplate} />
+          <Route  exact path='/lessons/courseintroduction' component={CourseIntroduction} />
+          <Route path='/lessons/:lessonId'
+            render={(props) => <Lessons {...props} />}
+          /> 
           <Route component={FourOhFour} />
         </Switch>
       </div>
@@ -37,6 +43,11 @@ const App = () => {
 export default App;
 
 
+
+
+// <Route path='/lessons/:lessonId'
+//   render={(props) => <Lessons {...props} />}
+// /> 
 
 
 // <Switch>

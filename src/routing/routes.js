@@ -3,7 +3,7 @@ import HomePage from '../pages/homepage/homepage.component'
 import Slides from '../pages/slides/slides.component'
 import Videos from '../pages/videos/videos.component'
 import Challenges from '../pages/blog/blog.component'
-import Lesson from '../components/lesson/lesson.component'
+import Lesson from ../components/lessons/lesson.component'
 import FourOhFour from '../components/four-oh-four/four-oh-four.component'
 import Blog from '../pages/blog/blog.component'
 
