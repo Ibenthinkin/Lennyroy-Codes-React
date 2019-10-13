@@ -1,5 +1,5 @@
 import React from 'react';
-import LESSON_DATA from '../../../assets/lessons/lesson-data'
+import LESSON_DATA from '../../assets/lessons/lesson-data'
 import './lesson.styles.scss';
 
 
@@ -13,16 +13,15 @@ export default class Lesson extends React.Component {
 
     render() {
         const { lessons } = this.state
+        console.log(this.props)
         return (
             <div className='lesson'>
-
+                <h1>LESSON</h1>
             </div>
         )
     }
 
 }
-
-export default Lesson;
 
 
 
