@@ -3,18 +3,18 @@ import LESSON_DATA from '../../../assets/lessons/lesson-data'
 import './lesson.styles.scss';
 
 
-export default class LessonAssembler extends React.Component {
+export default class Lesson extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            lessons: SHOP_DATA
+            lessons: LESSON_DATA
         }
     }
 
     render() {
         const { lessons } = this.state
         return (
-            <div className='lesson-container'>
+            <div className='lesson'>
 
             </div>
         )
