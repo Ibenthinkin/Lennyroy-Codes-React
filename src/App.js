@@ -30,10 +30,6 @@ const App = () => {
             <Route exact path='/challenges' component={Challenges} />
             <Route exact path='/blog' component={Blog} />
             <Route exact path='/lessons' component={Lessons} />
-            <Route  exact path='/lessons/courseintroduction' component={CourseIntroduction} />
-            <Route path='/lessons/:lessonId'
-              render={(props) => <Lessons {...props} />}
-            /> 
             <Route component={FourOhFour} />
           </Switch>
       </div>
@@ -43,6 +39,7 @@ const App = () => {
 
 export default App;
 
+{/* <Route exact path='/lessons/courseintroduction' component={CourseIntroduction} /> */}
 
 
 

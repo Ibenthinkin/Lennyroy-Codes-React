@@ -1,8 +1,9 @@
 import React from 'react';
 import { LESSON_DATA } from '../../assets/lessons/lesson-data'
 import './lessons.styles.scss';
-// import MakeRouteWithSubRoutes from '../../routing/makeRouteWithSubRoutes'
-// import { Routes } from '../../routing/routes'
+
+import { Route, Switch, Link } from 'react-router-dom'
+ 
 import SideBar from '../side-bar/side-bar.component.jsx'
 
 
@@ -13,7 +14,6 @@ const Lessons = props => {
         console.log(props, lessons)
         return (
             <div className='lessons'>
-                <h1>LESSONS</h1>
                 <SideBar />
 
             </div>
@@ -23,3 +23,7 @@ const Lessons = props => {
 }
 
 export default Lessons
+
+//     < Route path = '/lessons/:lessonId'
+// render = {(props) => <Lessons {...props} />}
+// /> 
