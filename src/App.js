@@ -1,6 +1,8 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom';
 
+import './App.scss'
+
 import HomePage from './pages/homepage/homepage.component'
 import Slides from './pages/slides/slides.component'
 import Videos from './pages/videos/videos.component'
@@ -13,7 +15,6 @@ import Lessons from './components/lessons/lessons.component'
 import FourOhFour from './components/four-oh-four/four-oh-four.component'
 import DefaultLessonTemplate from './components/lesson-templates/default-lesson-template/default-lesson-template.component';
 
-
 // import MakeRouteWithSubRoutes from './routing/makeRouteWithSubRoutes'
 
 // import { Routes } from './routing/routes'
@@ -22,19 +23,19 @@ const App = () => {
   return( 
       <div className='app-container'>
         <Header/>
-        <Switch>
-          <Route exact path='/' component={HomePage} />
-          <Route exact path='/slides' component={Slides} />
-          <Route exact path='/videos' component={Videos} />
-          <Route exact path='/challenges' component={Challenges} />
-          <Route exact path='/blog' component={Blog} />
-          <Route exact path='/lessons' component={Lessons} />
-          <Route  exact path='/lessons/courseintroduction' component={CourseIntroduction} />
-          <Route path='/lessons/:lessonId'
-            render={(props) => <Lessons {...props} />}
-          /> 
-          <Route component={FourOhFour} />
-        </Switch>
+          <Switch>
+            <Route exact path='/' component={HomePage} />
+            <Route exact path='/slides' component={Slides} />
+            <Route exact path='/videos' component={Videos} />
+            <Route exact path='/challenges' component={Challenges} />
+            <Route exact path='/blog' component={Blog} />
+            <Route exact path='/lessons' component={Lessons} />
+            <Route  exact path='/lessons/courseintroduction' component={CourseIntroduction} />
+            <Route path='/lessons/:lessonId'
+              render={(props) => <Lessons {...props} />}
+            /> 
+            <Route component={FourOhFour} />
+          </Switch>
       </div>
   )
 }
