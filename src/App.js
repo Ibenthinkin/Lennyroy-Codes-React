@@ -30,6 +30,8 @@ const App = () => {
             <Route exact path='/challenges' component={Challenges} />
             <Route exact path='/blog' component={Blog} />
             <Route exact path='/lessons' component={Lessons} />
+            <Route path='/lessons/:lessonId'
+            render = {(props) => <Lessons {...props} />} />
             <Route component={FourOhFour} />
           </Switch>
       </div>

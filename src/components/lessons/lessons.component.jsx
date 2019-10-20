@@ -15,7 +15,6 @@ const Lessons = props => {
         return (
             <div className='lessons'>
                 <SideBar />
-
             </div>
         )
     

@@ -4,7 +4,7 @@ export const LESSON_DATA = [
         id: 1,
         moduleTitle: 'The Basics',
         title: 'Course Introduction',
-        routeName: 'thebasics/courseintroduction',
+        routeName: '/courseintroduction',
         template: 'basics'
     },
     {
@@ -30,7 +30,7 @@ export const LESSON_DATA = [
         template: 'default',
         lessonTitle: 'HTML Syntax',
         moduleTitle: 'Intro To HTML',
-        routeName: 'introtohtml/htmlsyntax',
+        routeName: '/htmlsyntax',
         subtitle: 'How to Build an HTML Element',
         bannerImageUrl: 'https://raw.githubusercontent.com/lennyroyroy/basics-image/master/Basics%20Screenshots/syntax1.png',
         slidesUrl: 'https://slides.com/lennyroyroy/deck#/4',
