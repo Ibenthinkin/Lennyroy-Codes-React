@@ -2,19 +2,27 @@ import React from 'react';
 import { LESSON_DATA } from '../../assets/lessons/lesson-data'
 import './lessons.styles.scss';
 
-import { Route, Switch, Link } from 'react-router-dom'
+import { Route, Switch, Link, useParams } from 'react-router-dom'
  
 import SideBar from '../side-bar/side-bar.component.jsx'
 
+import DefaultLessonTemplate from '../lesson-templates/default-lesson-template/default-lesson-template.component'
+import Lesson from '../lesson/lesson.component'
 
-const Lessons = props => {
+const Lessons = ({match}) => {
 
     const lessons = LESSON_DATA
-
-        console.log(props, lessons)
+    let { lessonId } = useParams()
+        console.log(lessonId)
         return (
             <div className='lessons'>
-                <SideBar />
+                <div><SideBar /></div> 
+                <Switch>
+                    <Route path='/:lessonId'
+                        component={Lesson}
+                    />
+                </Switch>
+
             </div>
         )
     

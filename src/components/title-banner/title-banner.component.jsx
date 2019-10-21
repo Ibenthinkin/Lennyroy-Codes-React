@@ -14,7 +14,7 @@ const TitleBanner = ({ match }) =>(
                     <h4>Intro To Web Development</h4>
                 </div>
                 <div className='button-container'>
-                    <Link to='lessons/courseintroduction'> 
+                    <Link to='lessons/'> 
                     <CustomButton text='Start Now!'/>
                     </Link>
                     <CustomButton text='Course Catalogue' />

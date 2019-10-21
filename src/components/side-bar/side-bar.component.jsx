@@ -23,7 +23,7 @@ const SideBar = ({props}) => {
                                             (lesson, index) => {
                                                 return (
                                                     <li key={index}>
-                                                        <Link to={`${path}${lesson}`}>{lesson}</Link>
+                                                        <Link to={`${url}/${lesson.toLowerCase().replace(/\s+/g, '')}`}>{lesson}</Link>
                                                     </li>
                                                 )
                                             }

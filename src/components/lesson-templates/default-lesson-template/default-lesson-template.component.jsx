@@ -9,7 +9,7 @@ import './default-lesson-template.styles.scss';
 
 const DefaultLessonTemplate = (props) => {
 
-        console.log(props, LESSON_DATA)
+        console.log(props)
         return(
             <div>
                 SOemtings
