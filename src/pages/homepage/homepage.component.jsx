@@ -10,15 +10,18 @@ import CourseOverviewBanner from '../../components/course-overview-banner/course
 import Footer from '../../components/footer/footer.component';
 
 
-const HomePage = () => (
-  <div className='homepage'>
-    <TitleBanner/>
-    <CourseDescription />
-    <VideosBanner/>
-    <ChallengesBanner/>
-    <CourseOverviewBanner/>
-    <Footer/>
-  </div>
-);
+const HomePage = props => {
+  console.log(props)
+  return(
+    <div className='homepage'>
+      <TitleBanner/>
+      <CourseDescription />
+      <VideosBanner/>
+      <ChallengesBanner/>
+      <CourseOverviewBanner/>
+      <Footer/>
+    </div>
+  )
+};
 
 export default HomePage;

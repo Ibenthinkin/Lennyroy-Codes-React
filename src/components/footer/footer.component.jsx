@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 import './footer.styles.scss';
 
 const Footer = () => (
-    <div class="footer-wrapper">
+    <div className="footer-wrapper">
 
 
 
-    <div class="footer-bottom">
+    <div className="footer-bottom">
         <small>Copyright 2019 © Lennyroy Codes</small>
 
     </div>

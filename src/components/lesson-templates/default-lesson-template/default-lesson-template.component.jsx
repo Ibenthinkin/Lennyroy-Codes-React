@@ -4,121 +4,123 @@ import { Link } from 'react-router-dom'
 
 import CustomButton from '../../custom-button/custom-button.component';
 
-import LESSON_DATA from '../../../assets/lessons/lesson-data'
+import { LESSON_DATA } from '../../../assets/lessons/lesson-data'
 import './default-lesson-template.styles.scss';
 
-export default class DefaultLessonTemplate extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            lesson: LESSON_DATA
-        }
-    }
+const DefaultLessonTemplate = (props) => {
 
-    render() {
-        
-        const [{ first: 
-                subtitle, 
-                bannerImageUrl, 
-                moduleTitle,
-                slidesUrl,
-                slidesDownloadURL,
-                codepenDescription,
-                codepenUrl,
-                youtubeUrl,
-                videoDescription,
-                lessonTitle, 
-
-        }]  = this.state.lesson[1].lessons
-
-        console.log(this.state.lesson[1].lessons[0].lessonTitle)
-        return (
-            <div className='lesson'>
-                <div className='slides section'>
-                    <div className='lesson-title'>{lessonTitle}</div>
-                    <div className='sub-title'>{subtitle}</div>
-                    <div className='banner-image-container'>
-                        <img src={bannerImageUrl} alt='a picture from the slideshow'/>
-                    </div>
-                    <div className='button-container'>
-                        <a href={slidesUrl}>
-                        <CustomButton text={'Open Slides'}></CustomButton>
-                        </a>
-                        <a href={slidesDownloadURL}>
-                        <CustomButton text={'Download Slideshow PDF'}></CustomButton> 
-                        </a>
-                    </div>
-                <div/>   
-
-                <hr></hr>
-
-                    <div className='lesson-text section'>
-                        <h1>{`${moduleTitle}: ${lessonTitle}`}</h1>
-                    </div>
-                    
-                <hr></hr>
-                
-                <div className='codepen section'>
-                    <h2>Codepen Lesson</h2>
-                    <div className='codepen description'>
-                        {codepenDescription}
-                    </div>
-                    <div className='codepen-container'>
-                        <Iframe url={codepenUrl}
-                            width="450px"
-                            height="450px"
-                            id="myId"
-                            className="myClassname"
-                            display="initial"
-                            position="relative" />
-                    </div>
-                        <div className='button-container'>
-                            <a href={codepenUrl}>
-                            <CustomButton text='Open Codepen'/>
-                            </a>
-                        </div>
-                    </div>
-                
-                </div>
-
-                <hr></hr>
-
-                <div className='video-section'>
-                    <h2>Video Walkthrough</h2>
-                    <div className='video description'>
-                        {videoDescription}
-                    </div>
-                </div>
-                <div className='video-container'>
-                    <Iframe url={youtubeUrl}
-                        width="450px"
-                        height="450px"
-                        id="myId"
-                        className="myClassname"
-                        display="initial"
-                        position="relative" />
-                </div>
-                <div className='button-container'>
-                    <a href={youtubeUrl}>
-                        <CustomButton text='View Youtube Video' />
-                    </a>
-                </div>
-
-                <div className='nav-button-container'>
-                    <a href={'/'}>
-                        <CustomButton text=' &#larr; Previous Lesson' />
-                    </a>
-                    <a href={'/'}>
-                        <CustomButton text= ' &#rarr; Previous Lesson' />
-                    </a>
-                </div>
+        console.log(props)
+        return(
+            <div>
+                SOemtings
             </div>
+        )
+
+
+        // const [{ first: 
+        //         subtitle, 
+        //         bannerImageUrl, 
+        //         moduleTitle,
+        //         slidesUrl,
+        //         slidesDownloadURL,
+        //         codepenDescription,
+        //         codepenUrl,
+        //         youtubeUrl,
+        //         videoDescription,
+        //         lessonTitle, 
+
+        // }]  = props
+
+        // console.log(this.state.lesson[1].lessons[0].lessonTitle)
+        // return (
+        //     <div className='lesson'>
+        //         <div className='slides section'>
+        //             <div className='lesson-title'>{lessonTitle}</div>
+        //             <div className='sub-title'>{subtitle}</div>
+        //             <div className='banner-image-container'>
+        //                 <img src={bannerImageUrl} alt='a picture from the slideshow'/>
+        //             </div>
+        //             <div className='button-container'>
+        //                 <a href={slidesUrl}>
+        //                 <CustomButton text={'Open Slides'}></CustomButton>
+        //                 </a>
+        //                 <a href={slidesDownloadURL}>
+        //                 <CustomButton text={'Download Slideshow PDF'}></CustomButton> 
+        //                 </a>
+        //             </div>
+        //         <div/>   
+
+        //         <hr></hr>
+
+        //             <div className='lesson-text section'>
+        //                 <h1>{`${moduleTitle}: ${lessonTitle}`}</h1>
+        //             </div>
+                    
+        //         <hr></hr>
+                
+        //         <div className='codepen section'>
+        //             <h2>Codepen Lesson</h2>
+        //             <div className='codepen description'>
+        //                 {codepenDescription}
+        //             </div>
+        //             <div className='codepen-container'>
+        //                 <Iframe url={codepenUrl}
+        //                     width="450px"
+        //                     height="450px"
+        //                     id="myId"
+        //                     className="myClassname"
+        //                     display="initial"
+        //                     position="relative" />
+        //             </div>
+        //                 <div className='button-container'>
+        //                     <a href={codepenUrl}>
+        //                     <CustomButton text='Open Codepen'/>
+        //                     </a>
+        //                 </div>
+        //             </div>
+                
+        //         </div>
+
+        //         <hr></hr>
+
+        //         <div className='video-section'>
+        //             <h2>Video Walkthrough</h2>
+        //             <div className='video description'>
+        //                 {videoDescription}
+        //             </div>
+        //         </div>
+        //         <div className='video-container'>
+        //             <Iframe url={youtubeUrl}
+        //                 width="450px"
+        //                 height="450px"
+        //                 id="myId"
+        //                 className="myClassname"
+        //                 display="initial"
+        //                 position="relative" />
+        //         </div>
+        //         <div className='button-container'>
+        //             <a href={youtubeUrl}>
+        //                 <CustomButton text='View Youtube Video' />
+        //             </a>
+        //         </div>
+
+        //         <div className='nav-button-container'>
+        //             <a href={'/'}>
+        //                 <CustomButton text=' &#larr; Previous Lesson' />
+        //             </a>
+        //             <a href={'/'}>
+        //                 <CustomButton text= ' &#rarr; Previous Lesson' />
+        //             </a>
+        //         </div>
+        //     </div>
 
             
-        )
-    }
+        // )
+    
 
 }
+
+export default DefaultLessonTemplate;
 
 
 
