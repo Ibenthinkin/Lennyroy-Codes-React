@@ -10,6 +10,9 @@
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
+        @media only screen and (max-width: 600px) {
+            width:100%;
+        }
 
         .text-container {
             width: 500px;
@@ -17,6 +20,11 @@
             flex-wrap: wrap; 
             // flex-direction: column;
             margin-left: 40px;
+            @media only screen and (max-width: 600px) {
+                // border:solid red 1px;
+                width:auto;
+                margin-left:0px;
+            }
  
         }
 
@@ -27,6 +35,9 @@
             margin-top: 0px;
             margin-bottom: 14px;
             font-weight: bolder;
+            @media only screen and (max-width: 1039px) {
+                text-align: center;
+            }
         }
 
         .paragraph {
@@ -34,8 +45,14 @@
             flex-wrap: wrap;
             font-size: 18px;
             margin-top: 0px;
-            line-height: 21px;
+            line-height: 1.5;
             text-align: center;
+            @media only screen and (max-width: 600px) {
+                font-size:1rem;
+                margin-right: 20px;
+                margin-left: 20px;
+            }
+            
         }
 
         .image-container {
@@ -43,6 +60,9 @@
 
             img {
                 width: 100%;
+                @media only screen and (max-width: 1039px) {
+                    display: none;
+                }
             }
         }
 

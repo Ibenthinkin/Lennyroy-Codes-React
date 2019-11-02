@@ -1,9 +1,13 @@
 
+
 .course-description {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #fff;
+    @media only screen and (max-width: 600px) {
+        width:unset;
+    }
 
     .tablet-wrapper-wrapper{
         display: flex;
@@ -39,7 +43,7 @@
             color: #1e272f;
             margin: 20px 20px;
             @media only screen and (max-width: 600px) {
-                width:350px;
+                // width:350px;
             }
 
             a {
@@ -70,6 +74,9 @@
         flex-direction: column;
         align-items: center;
         margin-bottom: 100px;
+        @media only screen and (max-width: 600px) {
+        margin-bottom: 30px;
+        }
 
         .description-title {
             font-size: 34px;
@@ -78,8 +85,18 @@
         }
         .description-paragraph {
             font-size: 18px;
-            text-align: center;
+            line-height: 2;
             width: 560px;
+            text-align: center;
+            @media only screen and (max-width: 600px) {
+                font-size:1rem;
+                line-height: 2;
+                margin-left:7%;
+                margin-right: 5%;
+                width: unset;
+                text-align: left;
+            }
+            
         }
 
     }
