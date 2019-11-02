@@ -1,7 +1,39 @@
 .side-bar{
-    width: 200px;
+    // width: 200px;
     position: fixed;
     // bottom: 0;
     // left: 0;
     // top: 0;
+    padding: 10px;
+    margin-top: -20px;
+    @media only screen and (max-width: 600px) {
+        display:none;
+    }
+
+}
+
+.module{
+    h2{
+        color: #393939;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.2em;
+        margin-bottom: 8px;
+        margin-top: 0;
+        cursor: pointer;
+    }
+    ul{
+        list-style: none;
+    li{
+        border: none;
+        color: #717171;
+        display: block;
+        font-size: 14px;
+        padding: 4px 0;
+        transition: color .3s;
+        :hover{
+            color: #5c194d;
+        }
+    }
+    }
 }

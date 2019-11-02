@@ -9,7 +9,7 @@ const Lesson = () => {
     // console.log(props)
     return (
         <div className='lesson'>
-            This is a lesson. {lessonId}
+            STILL LESSON COMPONENT {lessonId}
         </div>
     )
 
