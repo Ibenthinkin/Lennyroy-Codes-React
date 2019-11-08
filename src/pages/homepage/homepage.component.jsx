@@ -1,6 +1,8 @@
 import React from 'react';
 
 import './homepage.styles.scss';
+import '../../assets/var.scss'
+import '../../assets/global.scss'
 
 import TitleBanner from '../../components/title-banner/title-banner.component'
 import CourseDescription from '../../components/course-description/course-description.component'
