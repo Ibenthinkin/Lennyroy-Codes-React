@@ -1,5 +1,5 @@
 import React from 'react';
-import { LESSON_DATA } from '../../assets/lessons/lesson-data'
+import { LESSON_DATA } from '../../assets/lesson-data/lesson-data'
 import './lessons.styles.scss';
 
 import { Route, Switch, Link, useParams, useRouteMatch } from 'react-router-dom'

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 import CustomButton from '../../custom-button/custom-button.component';
 
-import { LESSON_DATA } from '../../../assets/lessons/lesson-data'
+import { LESSON_DATA } from '../../../assets/lesson-data/lesson-data'
 import './default-lesson-template.styles.scss';
 
 const DefaultLessonTemplate = (props) => {

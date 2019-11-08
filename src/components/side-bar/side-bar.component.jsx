@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, useRouteMatch } from 'react-router-dom'
 
-import { LESSONS_LIST as list } from '../../assets/lessons/lesson-data.js'
+import { LESSONS_LIST as list } from '../../assets/lesson-data/lesson-data.js'
 
 
 import './side-bar.styles.scss'
