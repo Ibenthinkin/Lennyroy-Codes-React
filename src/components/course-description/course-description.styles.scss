@@ -51,13 +51,11 @@
             }
 
             .card-title {
-                font-size: 24px;
                 font-weight: bolder;
 
             }
 
             .card-blurb {
-                font-size: 18px;
                 text-align: center;
             }
 
@@ -79,18 +77,13 @@
         }
 
         .description-title {
-            font-size: 34px;
             font-weight: bolder;
             color: #5c194d;
         }
         .description-paragraph {
-            font-size: 18px;
-            line-height: 2;
             width: 560px;
             text-align: center;
             @media only screen and (max-width: 600px) {
-                font-size:1rem;
-                line-height: 2;
                 margin-left:7%;
                 margin-right: 5%;
                 width: unset;

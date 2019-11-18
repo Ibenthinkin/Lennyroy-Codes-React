@@ -5,7 +5,7 @@ export const LESSON_DATA = [
         moduleTitle: 'The Basics',
         title: 'Course Introduction',
         routeName: '/courseintroduction',
-        template: 'basics'
+        template: 'intro'
     },
     {
 

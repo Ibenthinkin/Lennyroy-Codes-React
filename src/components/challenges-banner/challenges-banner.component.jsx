@@ -1,5 +1,7 @@
 import React from 'react'
 import './challenges-banner.styles.scss'
+import '../../assets/var.scss'
+import '../../assets/global.scss'
 
 const ChallengesBanner = () => (
     <div className='challenges-banner'>

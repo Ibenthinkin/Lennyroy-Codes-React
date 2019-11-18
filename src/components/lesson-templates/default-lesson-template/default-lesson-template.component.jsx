@@ -6,6 +6,8 @@ import CustomButton from '../../custom-button/custom-button.component';
 
 import { LESSON_DATA } from '../../../assets/lesson-data/lesson-data'
 import './default-lesson-template.styles.scss';
+import '../../../assets/var.scss'
+import '../../../assets/global.scss'
 
 const DefaultLessonTemplate = (props) => {
 

@@ -1,5 +1,7 @@
 import React from 'react'
 import './videos-banner.styles.scss'
+import '../../assets/var.scss'
+import '../../assets/global.scss'
 
 const VideosBanner = () => (
     <div className='videos-banner'>
