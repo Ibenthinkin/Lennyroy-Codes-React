@@ -1,5 +1,7 @@
 import React from 'react'
 import './course-overview-banner.styles.scss'
+import '../../assets/var.scss'
+import '../../assets/global.scss'
 import noteList from '../../assets/img/undraw_note_list.svg'
 
 const CourseOverviewBanner = () => (

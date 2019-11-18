@@ -5,6 +5,8 @@ import { LESSONS_LIST as list } from '../../assets/lesson-data/lesson-data.js'
 
 
 import './side-bar.styles.scss'
+import '../../assets/var.scss'
+import '../../assets/global.scss'
 
 const SideBar = ({props}) => {
     let { path, url } = useRouteMatch();

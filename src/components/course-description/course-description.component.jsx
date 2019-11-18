@@ -8,6 +8,7 @@ import bookmarks from '../../assets/img/undraw_bookmarks.svg'
 
 import './course-description.styles.scss'
 import '../../assets/var.scss'
+import '../../assets/global.scss'
 
 const CourseDescription = () =>(
     <div className='course-description'>

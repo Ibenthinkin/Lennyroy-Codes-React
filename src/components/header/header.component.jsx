@@ -2,6 +2,8 @@ import React from 'react'
 import lcWhiteFull from '../../assets/img/LC-white-full.png'
 
 import './header.styles.scss'
+import '../../assets/var.scss'
+import '../../assets/global.scss'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
