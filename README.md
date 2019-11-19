@@ -1,17 +1,34 @@
 # The Basics Course Materials
 
-<a href="https://lennyroyroy.github.io/the-basics/" target="_blank">Homepage Link</a>
+<a href="https://lennyroy-codes.herokuapp.com" target="_blank">The Basics: Intro to Web Development Homepage</a>
 
-Starter Materials for the Introduction to Web Development: The Basics Course
+Starter materials the course
 
-Author: Lennyroy Robles
 
 
 ## Slides:
 **In Class Slides**
 
+
+- [Intro to Web Development: The Basics - Course Introduction](https://slides.com/lennyroyroy/deck-3#/)
+- [Intro to Web Development: The Basics - Creating Accounts](https://slides.com/lennyroyroy/deck-5#/)
 - [Intro to Web Development: The Basics - Intro to HTML](https://slides.com/lennyroyroy/deck)
 - [Intro to Web Development: The Basics - Intro to CSS](https://slides.com/lennyroyroy/deck-1)
+- [Intro to Web Development: The Basics - Layout](https://slides.com/lennyroyroy/deck-4)
+- [Intro to Web Development: The Basics - CSS Class & ID](https://slides.com/lennyroyroy/deck-4-15)
+- [Intro to Web Development: The Basics - Glitch Walkthrough](https://slides.com/lennyroyroy/deck-6)
+- [Intro to Web Development: The Basics - HTML Structure](https://slides.com/lennyroyroy/deck-7)
+- [Intro to Web Development: The Basics - Flexbox](https://slides.com/lennyroyroy/deck-8)
+- [Intro to Web Development: The Basics - Responsive Design](https://slides.com/lennyroyroy/deck-9)
+
+
+## Youtube Channel
+- [Lennyroy Codes on YouTube](https://www.youtube.com/channel/UCIdIKV_qBZA-xTnBbYYvqIA)
+
+## Podcast Home
+- [Lennyroy Codes Podcast](https://www.youtube.com/channel/UCIdIKV_qBZA-xTnBbYYvqIA)
+
+
 
 ## License
 
