@@ -10,6 +10,8 @@ import SideBar from '../side-bar/side-bar.component.jsx'
 
 import DefaultLessonTemplate from '../lesson-templates/default-lesson-template/default-lesson-template.component'
 import Lesson from '../lesson/lesson.component'
+import Footer from '../../components/footer/footer.component';
+
 
 const Lessons = () => {
 
@@ -19,20 +21,21 @@ const Lessons = () => {
     // let { lessonId } = useParams()
         // console.log(lessonId)
         return (
-            <div className='lessons'>
-                <div className='side-bar'>
-                    <SideBar />
-                </div> 
-                <div className='lesson'>
-                    <Switch>
-                        <Route exact path={path}
-                        />
-                        <Route path={`${path}/:lessonId`}>
-                            <Lesson />
-                        </Route>
-                    </Switch>
+                <div className='lessons'>
+                    <div className='side-bar'>
+                        <SideBar />
+                    </div> 
+                    <div className='lesson'>
+                        <Switch>
+                            <Route exact path={path}
+                            />
+                            <Route path={`${path}/:lessonId`}>
+                                <Lesson />
+                            </Route>
+                        </Switch>
+                    </div>
+                    
                 </div>
-            </div>
         )
     
 

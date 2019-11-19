@@ -15,12 +15,47 @@
 
     .footer-logo{
         margin-right: 50px;
+        
+        img{
+            width:50px;
+            opacity: .5;
+        }
     }
 
     .footer-container{
         display: flex;
         justify-content: space-between;
         width: 100%;
+        h5{
+            margin-top:0px;
+            margin-bottom:10px;
+        }
+        ul{
+            margin:0px;
+            li{
+                font-size:.8rem;
+                &:hover{
+                    opacity: 1;
+                    color:white;
+                    transition: 600ms;
+                }
+            }
+        }
+        @media only screen and (max-width: 800px) {
+            flex-direction: column;
+            
+            &.footer-container > *{
+                margin-bottom:40px;
+            }
+
+            .coffee-button{
+                margin-top: 5px;
+                span{
+                    border:solid purple 1px;
+                    display: none;;
+                }
+            }
+        }
 
     }
     .footer-flex{
@@ -42,6 +77,7 @@
         padding-bottom: 2em;
         padding-top: 2em;
     }
+
 
 }
 
