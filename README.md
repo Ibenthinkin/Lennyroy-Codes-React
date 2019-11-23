@@ -26,7 +26,7 @@ Starter materials the course
 - [Lennyroy Codes on YouTube](https://www.youtube.com/channel/UCIdIKV_qBZA-xTnBbYYvqIA)
 
 ## Podcast Home
-- [Lennyroy Codes Podcast](https://www.youtube.com/channel/UCIdIKV_qBZA-xTnBbYYvqIA)
+- [Lennyroy Codes Podcast](https://open.spotify.com/show/5EsajBvYDAJ4SaxZMNHdxS?si=ts4Wb3MqS3aK-0fHU4Vkzw)
 
 
 
